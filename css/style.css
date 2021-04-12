@@ -727,7 +727,7 @@ header::before{
     .lastlist ol li{
         padding: 0;
         margin: 0;
-        margin-bottom: 14px;
+        margin-bottom: 12px;
         font-size: 12px;
     }
     .lastlist ul li{
