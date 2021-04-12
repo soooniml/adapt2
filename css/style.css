@@ -717,13 +717,18 @@ header::before{
     .block1innercontent p{
         font-size: 13px;
     }
+    .mapblock{
+        margin-bottom: 20px;
+    }
     .lastlist{
         display: inline-block;
+        margin-bottom: 20px;
     }
     .lastlist ol li{
         padding: 0;
         margin: 0;
         margin-bottom: 14px;
+        font-size: 12px;
     }
     .lastlist ul li{
         padding: 0;
