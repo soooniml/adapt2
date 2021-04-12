@@ -256,8 +256,8 @@ header::before{
     color: white;
     background-color: black;
     border-radius: 50%;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px 8px;
+    font-size: 15px;
     margin: 0 10px;
     margin-top: 20px;
 }
@@ -295,8 +295,10 @@ header::before{
 .mapblock{
     background: url('../img/map1.jpg') center/ cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
+    padding: 50px 0px;
+    margin-bottom: 50px;
 }
 .maptitle{
     padding: 40px 0;
@@ -377,7 +379,15 @@ header::before{
 
 @media screen and (max-width:960px){
     .lastlist{
-        width: 80%;}
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:838px) {
+    .block1innercontent h2{
+        font-weight:bolder;
+        font-size:23px;
+    }
 }
 
 @media screen and (max-width:780px){
@@ -560,6 +570,12 @@ header::before{
         font-size: 10px;
         padding: 0;
     }
+
+    .headerparent{
+        margin-top: 70px;
+
+    }
+
     .headerparent a{
         padding: 8px 15px;
         font-size: 13px;
@@ -690,8 +706,36 @@ header::before{
         width: 14%;
         margin: 0 20px;
     }
-    
-    
+
+}
+
+@media screen and (max-width:390px){
+    .block1innercontent{
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+    .block1innercontent p{
+        font-size: 13px;
+    }
+    .lastlist{
+        display: inline-block;
+    }
+    .lastlist ol li{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 14px;
+    }
+    .lastlist ul li{
+        padding: 0;
+    }
+    .lastlist ul li a i{
+        font-size: 10px;
+        padding: 4px 6px;
+        margin: 0px 3px;
+    }
+    .headerinner ul li{
+        margin: 0 5px;
+    }
 }
 
 
